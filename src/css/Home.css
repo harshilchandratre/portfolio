@@ -17,3 +17,12 @@
     border: 2px solid red;
 
 }
+
+.Work-main{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid crimson;
+}
