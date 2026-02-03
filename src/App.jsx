@@ -5,16 +5,26 @@ import Blog from "./pages/Blog";
 import Admin from "./pages/Admin";
 import Projects from "./pages/Projects";
 import BlogPost from "./pages/Blogpost";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/:slug" element={<BlogPost />} />
-      <Route path="/admin" element={<Admin />} />
-    </Routes>
+    <>
+      <Navbar />
+      <div className="app-wrapper">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/admin" element={<Admin />} />
+        </Routes>
+      </div>
+      <Footer />
+    </>
   );
 }
 

@@ -1,5 +1,9 @@
-function Blog() {
-  return <h1>Blog</h1>;
+import React from 'react'
+
+const Blog = () => {
+  return (
+    <div>Blog</div>
+  )
 }
 
-export default Blog;
+export default Blog

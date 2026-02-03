@@ -1,0 +1,16 @@
+.Nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* margin: 2.5rem; */
+    padding: 2.5rem;
+    z-index: 100;
+
+    border: 2px solid white;
+}
+.Nav {
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+}

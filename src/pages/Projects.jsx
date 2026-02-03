@@ -1,5 +1,9 @@
-function Projects() {
-  return <h1>Projects</h1>;
+import React from 'react'
+
+const Projects = () => {
+  return (
+    <div>Projects</div>
+  )
 }
 
-export default Projects;
+export default Projects
