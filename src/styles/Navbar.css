@@ -7,7 +7,7 @@
     padding: 2.5rem;
     z-index: 100;
 
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 .Nav {
     display: flex;

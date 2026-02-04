@@ -1,0 +1,67 @@
+.Timeline-main {
+  /* font-family: Arial, sans-serif; */
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  -webkit-font-smoothing: antialiased;
+
+  /* border: 2px dotted black; */
+
+  --color-bg: #eaeaea;
+  --color-font: #0f0f0f;
+
+  color: var(--color-font);
+  background-color: var(--color-bg);
+
+  padding: 0 4.5rem 0 4.5rem;
+}
+
+section {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.section-title {
+  position: sticky;
+  top: 1.25rem;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+  gap: 1.875rem;
+  width: 100%;
+  max-width: 35rem;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.article-content {
+  padding-bottom: 2rem;
+}
+
+.dot {
+  --size: 0.5rem;
+  width: var(--size);
+  height: var(--size);
+  margin: calc((1rem - var(--size)) / 2);
+  border-radius: 50%;
+  background-color: var(--color-font);
+  flex-grow: 0;
+}
+
+.line {
+  flex-grow: 1;
+  margin: 8px 0;
+  width: 3px;
+  background-color: var(--color-font);
+}

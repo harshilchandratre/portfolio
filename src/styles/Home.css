@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid lightseagreen;
+    /* border: 2px solid lightseagreen; */
 }
 
 .CTA-sub {
@@ -14,15 +14,33 @@
     justify-content: center;
     gap: 1rem;
     padding: 4rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
+}
+
+.Home-main {
+    width: 100%;
+    height: max-content;
+    /* border: 3px dotted wheat; */
 }
 
 .Work-main{
     width: 100%;
-    height: max-content;
+    min-height: max-content;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid crimson;
+}
+
+.Work-sub {
+    border: 2px dotted black;
+}
+
+.Title-main {
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px dotted white; */
 }

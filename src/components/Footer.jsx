@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../css/Footer.css'
+import '../styles/Footer.css'
 
 const Footer = () => {
   return (
@@ -13,6 +13,12 @@ const Footer = () => {
                 <ul>
                     <li>+91 8849951360</li>
                     <li>harshilchandratre2002@gmail.com</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Location</h3>
+                <ul>
+                    <li>{"Vadodara (Gujarat), IN"}</li>
                 </ul>
             </div>
         </div>
