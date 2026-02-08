@@ -1,46 +1,51 @@
 .CTA-main {
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 2px solid lightseagreen; */
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid lightseagreen; */
 }
 
 .CTA-sub {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    gap: 1rem;
-    padding: 4rem;
-    /* border: 2px solid red; */
-
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+  padding: 4rem;
+  /* border: 2px solid red; */
 }
 
 .Home-main {
-    width: 100%;
-    height: max-content;
-    /* border: 3px dotted wheat; */
+  width: 100%;
+  height: max-content;
+  /* border: 3px dotted wheat; */
 }
 
-.Work-main{
-    width: 100%;
-    min-height: max-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid crimson;
+.Work-main {
+  width: 100%;
+  min-height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid crimson; */
 }
 
 .Work-sub {
-    border: 2px dotted black;
+  width: min(1200px, 100%);
+  padding: 1rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  justify-items: center;
 }
 
 .Title-main {
-    padding: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 2px dotted white; */
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px dotted white; */
 }
